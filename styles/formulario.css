@@ -1,0 +1,20 @@
+h1 {font-family: Arial, Helvetica, sans-serif; font-size: 30px; text-align: center;    }
+
+ol {list-style: none; }
+
+
+li, fieldset {margin-bottom: 10px; }
+
+label { width: 100px ; margin-left: 30px; color: red;  }
+
+#fecha { margin-right: 60px; border-radius: 15px;         }
+
+input {border-radius: 15px;margin-bottom: 10px;}
+
+#mensaje { width: 320px; padding-bottom: 45px; border-radius: 15px; }
+
+.boton { width: 100px;height: 40px ;border-radius: 15px; background-color: brown; 
+         color: white; 
+         border: none;
+         text-align: center;
+        }

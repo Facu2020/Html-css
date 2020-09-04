@@ -1,0 +1,54 @@
+body {
+     margin: 0;
+}
+
+.nav {
+     width: 100%;
+     background-color: aqua;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 30px;
+}
+
+ul { list-style: none;
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 30%;
+}
+
+li {
+  display: inline;
+}
+
+.contenedor { background-color: red;
+              height: calc(100vh - 100px);
+              width: 100%;
+              color: white;
+              font-size: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+}
+
+.rojo { font-size: 30px;
+    color: red;
+}
+
+.contenedores { grid-template-columns: 1fr 1fr ;
+                width: 100%;
+                display: grid;
+/*con display:grid le indicas que acomode los elementos en curadriculas y con grid-template-columns le indicas
+cuantas columnas vas a necesitar */ 
+}
+/*
+@media screen and (min-width:1024px) 
+{
+  .col { width:49%;
+        width:6.25% 60 / 960=0.0625
+        width: 14.64%  150 / 1024=0.1464
+*/        
+          
+

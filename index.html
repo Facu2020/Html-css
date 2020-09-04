@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="styles/styles.css">
+         <meta name="keywords" content="html,HTML,curriculum web" >
+         <!--elemento meta de Bootstrap-->
+         <meta name="viewport" content="width=device-width, initial-scale:1.0">
+         <title>Curriculum Online</title>
+     </head>
+     <body>
+      <body bgcolor="#F1FAEE" > 
+      <div class="nav">
+           <h1> Curriculum </h1>
+           <ul>
+              <li><a href="#identificador">Formularios</a></li>
+              <li>Tablas</li>
+           </ul>
+      </div>
+      
+      <div class="contenido">
+         <div1>
+            <h2> Presentación </h2> 
+              <p>Mi nombre es Facundo Alles, vivo en Córdoba, tengo 21 años y soy estudiante de Ingenieria.
+                 Antes estudie Ing. Civil pero cambie de especialidad y ahora me encanta lo que estudio. 
+              </p>
+         </div1>   
+         <div2>
+            <img src="images/foto de perfil.png" alt="imagen de mi cara">
+         </div2>   
+      </div>
+      
+      <div id="titulo">
+         <h3> Contactos</h3>
+      
+         <div id="adicional">
+            <div class="item1"    >
+               <ol>
+               <strong>Dirección de correo electrónico:</strong>
+               <li> facualles5@gmail.com </li>  
+               <li> facualles27@hotmail.com </li>
+            </div>      
+            <div class="item2"    >
+               <p> <strong>Teléfono:</strong> 3517618286</p>
+            </div>
+         </div>      
+      </div>
+      <br>
+      
+      <div class="form">
+         <h4> Formación </h4>
+            <div1>
+                <p> <strong>Secundario completo:</strong> escuela Domingo Savio </p> 
+                <p> <strong>Título:</strong> Bachiller en Educación física. </p>
+            </div1>       
+            <div2>
+                <p> <strong>Estudios en curso:</strong> Ingenieria en Sistemas de Información </p> 
+            </div2>
+      </div>
+      
+      <div class="contenedor">
+         <h5>Formularios</h5>        
+            <form>
+               <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+                  <ol> 
+                     <li> 
+                       <label for="nombre">Nombre y Apellido:</label>
+                       <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required >
+                       <label for="nombre"> <abbr title="required" aria-label="required">*</abbr>
+                            <!--ARIA-LABEL es para personas con discapacidads-->
+                     </li>
+                     <li>
+                        <label for="fechayhora">Fecha y Hora</label>
+                        <input type="datetime-local" name="datetime" id="datetime">
+                     </li>
+                     <li>
+                       <label for="email">E-mail:</label1>
+                       <input type="text" name="email" id="email" placeholder="ingrese su email" required >
+                       <label for="email"><abbr title="required" aria-label="required">*</abbr>                    
+                     </li>
+                     <li>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" name="tel" id="tel">
+                     </li>
+                     <li>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="age" name="age" min="1" max="20" step="2">
+                     </li>
+               </fieldset>
+               
+               <fieldset>
+                  <legend>DATOS EXTRAS</legend>
+                     <li>
+                        <label for="este curso">Este curso te parece:</label>
+                         <select id="este curso" name="este curso">
+                           <option value="bueno">bueno</option>
+                           <option value="muy bueno">muy bueno</option>
+                           <option value="excelente">excelente</option>
+                           <option selected></option>
+                         </select>   
+                     </li>
+                     <li>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="15" rows="5" maxlength="60"></textarea> 
+                     </li>             
+                     <li>
+                      <button type="submit">Enviar</button>
+                     </li>
+                  </ol>
+               </fieldset>
+      </div>      
+               
+            </form>
+     
+     
+    </body>
+ </html>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </html>

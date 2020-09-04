@@ -1,0 +1,15 @@
+table {border: 1px solid black;
+       border-collapse: collapse;
+       margin: 20px;
+       table-layout: fixed;
+       width: 100%;
+       font-family: 'helvetica neue', helvetica, arial, sans-serif;
+       }
+caption {caption-side: top;}       
+        
+
+td,th {border: 1px solid; padding: 10px;}     
+
+tbody, tfoot {text-align: center;    }
+
+thead, th {background-color:#81b29a  ; border-collapse: collapse; padding: 15px; }
